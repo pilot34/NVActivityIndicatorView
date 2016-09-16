@@ -311,7 +311,7 @@ public enum NVActivityIndicatorType: Int {
 }
 
 /// Activity indicator view with nice animations
-public class NVActivityIndicatorView: UIView {
+open class NVActivityIndicatorView: UIView {
     /// Default type. Default value is .BallSpinFadeLoader.
     public static var DEFAULT_TYPE: NVActivityIndicatorType = .ballSpinFadeLoader
     
